@@ -1,0 +1,12 @@
+--- google-gadgets-0.10.5.orig/configure.ac
++++ google-gadgets-0.10.5/configure.ac
+@@ -414,7 +415,7 @@
+     GGL_PLATFORM_SHORT="\"mac\""
+     GGL_PLATFORM="\"mac\""
+     ;;
+-  *linux* )
++  *linux* | *kfreebsd*-gnu* )
+     ggl_host_type=linux
+     PREDEFINED_MACROS="$PREDEFINED_MACROS -DGGL_HOST_LINUX=1"
+     SMJS_CFLAGS="-DXP_UNIX"
+

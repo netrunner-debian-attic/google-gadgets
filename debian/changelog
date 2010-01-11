@@ -1,0 +1,76 @@
+google-gadgets (0.11.1-1) unstable; urgency=low
+
+  * New upstream release (Closes: 534719)
+  * Added shared-mime-info as a dependency for google-gadgets-common
+    (Closes: 559077)
+  * Added google-gadgets-xul as a dependency of google-gadgets-qt
+    (Closes: 513175)
+  * Excluded network-manager-dev from build-depends on hurd-i386,
+    It might build on hurd now, if so: Closes: 550948
+  * Adjusted capitalisation of "QT" to "Qt" (Closes: 554625)
+  * Removed 99_relibtoolize.patch, we run autoreconf preconfigure now
+
+ -- Jack Coulter <jscinoz@gmail.com>  Mon, 21 Dec 2009 09:42:37 +1100
+
+google-gadgets (0.10.5-0.3) unstable; urgency=low
+
+  * Non-maintainer upload for transition to xulrunner 1.9.1.
+    (Closes: #548677)
+  * debian/rules: Use dh_xulrunner
+  * debian/control: Build-depend on a xulrunner-dev that provides dh_xulrunner.
+  * debian/patches/03_GRE_Version.patch: Tighten the GREVersionRange.
+  * debian/patches/series: Add 03_GRE_Version.patch.
+
+ -- Mike Hommey <glandium@debian.org>  Sat, 10 Oct 2009 16:08:37 +0200
+
+google-gadgets (0.10.5-0.2) unstable; urgency=low
+
+  * NMU.
+  * Fix xdgmime's license in debian/copyright. (Closes: #512029)
+  * Fix the package's description. (Closes: #534424)
+  * Don't call deprecated dh_desktop.
+  * Don't build-depends on network-manager-dev on GNU/kFreeBSD. 
+  * Use quilt as a patch system.
+  * Enable AM_MAINTAINER_MODE
+  * configure.ac: correctly detect GNU/kFreeBSD. (Closes: #542543)
+
+ -- Aurelien Jarno <aurel32@debian.org>  Wed, 02 Sep 2009 20:11:41 +0200
+
+google-gadgets (0.10.5-0.1) unstable; urgency=low
+
+  * NMU.
+  * New upstream release.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 26 Jan 2009 20:57:42 +0100
+
+google-gadgets (0.10.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Yet again more information added to copyright file
+
+  [ Sune Vuorela ]
+  * Fixups in rules file.
+  * Small additions to copyright file.
+  * Initial upload to debian. (Actually Closes: 484867)
+  
+ -- Jack Coulter <jscinoz@gmail.com>  Wed, 17 Dec 2008 11:22:31 +1100
+
+google-gadgets (0.10.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Made copyright file much more in-depth
+  
+ -- Jack Coulter <jscinoz@gmail.com>  Sat, 08 Nov 2008 09:22:06 +1100
+
+google-gadgets (0.10.2-1) unstable; urgency=low
+
+  * Upgraded to 0.10.2
+  * Merged libggadget-xdg into libggadget (and respective -dev packages)
+
+ -- Jack Coulter <jscinoz@gmail.com>  Sun, 14 Sep 2008 11:14:09 +1000
+
+google-gadgets (0.10.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #484867)
+
+ -- Jack Coulter <jscinoz@gmail.com>  Sat, 14 Jun 2008 17:53:53 +1000
