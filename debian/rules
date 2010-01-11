@@ -67,8 +67,6 @@ install-arch: build-arch-stamp
 	dh_install -s
 	dh_installman -pgoogle-gadgets-gtk debian/ggl-gtk.7
 	dh_installman -pgoogle-gadgets-qt debian/ggl-qt.7
-	
-	
   
 # Must not depend on anything. This is to be called by
 # binary-arch

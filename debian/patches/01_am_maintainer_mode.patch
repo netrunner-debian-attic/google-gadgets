@@ -1,6 +1,6 @@
---- google-gadgets-0.10.5.orig/configure.ac
-+++ google-gadgets-0.10.5/configure.ac
-@@ -34,6 +34,7 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -34,6 +34,7 @@ AC_CONFIG_SRCDIR([ggadget/common.h])
  AC_CONFIG_AUX_DIR([autotools])
  AC_CONFIG_MACRO_DIR([autotools])
  

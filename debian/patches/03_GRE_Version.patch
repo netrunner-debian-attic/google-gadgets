@@ -1,8 +1,6 @@
-Index: google-gadgets-0.11.1/extensions/gtkmoz_browser_element/browser_child.cc
-===================================================================
---- google-gadgets-0.11.1.orig/extensions/gtkmoz_browser_element/browser_child.cc	2009-12-22 11:34:43.000000000 +1100
-+++ google-gadgets-0.11.1/extensions/gtkmoz_browser_element/browser_child.cc	2009-12-22 11:36:32.000000000 +1100
-@@ -1213,8 +1213,8 @@
+--- a/extensions/gtkmoz_browser_element/browser_child.cc
++++ b/extensions/gtkmoz_browser_element/browser_child.cc
+@@ -1213,8 +1213,8 @@ static bool InitGecko() {
    nsresult rv;
  
    static const GREVersionRange kGREVersion = {
@@ -13,11 +11,9 @@ Index: google-gadgets-0.11.1/extensions/gtkmoz_browser_element/browser_child.cc
    };
  
    char xpcom_location[4096];
-Index: google-gadgets-0.11.1/extensions/smjs_script_runtime/libmozjs_glue.cc
-===================================================================
---- google-gadgets-0.11.1.orig/extensions/smjs_script_runtime/libmozjs_glue.cc	2009-12-22 11:36:53.000000000 +1100
-+++ google-gadgets-0.11.1/extensions/smjs_script_runtime/libmozjs_glue.cc	2009-12-22 11:37:08.000000000 +1100
-@@ -198,8 +198,8 @@
+--- a/extensions/smjs_script_runtime/libmozjs_glue.cc
++++ b/extensions/smjs_script_runtime/libmozjs_glue.cc
+@@ -198,8 +198,8 @@ bool LibmozjsGlueStartup() {
    char xpcom_file[4096];
  
    static const GREVersionRange kGREVersion = {
