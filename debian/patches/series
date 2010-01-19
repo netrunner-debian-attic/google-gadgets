@@ -1,3 +1,4 @@
 01_am_maintainer_mode.patch
 02_kfreebsd.patch
 03_GRE_Version.patch
+04_hurd.patch
