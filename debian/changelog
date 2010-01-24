@@ -1,3 +1,11 @@
+google-gadgets (0.11.1-3) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * Add 10_fix_onOpen_typo.patch:
+    - fix a typo in the "World Daylight Clock". (Closes: #566168)
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 24 Jan 2010 12:42:22 +0100
+
 google-gadgets (0.11.1-2) unstable; urgency=low
 
   [ Fathi Boudra ]

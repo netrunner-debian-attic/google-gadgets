@@ -2,3 +2,4 @@
 02_kfreebsd.patch
 03_GRE_Version.patch
 04_hurd.patch
+10_fix_onOpen_typo.patch
