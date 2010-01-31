@@ -13,8 +13,9 @@ google-gadgets (0.11.2-0.1) UNRELEASED; urgency=low
   * Switch from cURL to SOUP for the xml_http_request module. Other than being
     recommended upstream, this also avoid crashes which can happen with
     gnutls. (Closes: #566167)
+  * Install the html-flash-element extension in the -common package.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 13:12:26 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 14:06:06 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 

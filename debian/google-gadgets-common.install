@@ -4,6 +4,7 @@ usr/lib/google-gadgets/modules/soup*.so
 usr/lib/google-gadgets/modules/dbus*.so
 usr/lib/google-gadgets/modules/default*.so
 usr/lib/google-gadgets/modules/google-gadget-manager*.so
+usr/lib/google-gadgets/modules/html*.so
 usr/lib/google-gadgets/modules/libxml2*.so
 usr/lib/google-gadgets/modules/linux*.so
 usr/share/google-gadgets/*.gg
