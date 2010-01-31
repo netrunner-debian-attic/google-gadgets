@@ -44,7 +44,7 @@ Description: Google Gadgets GTK+ library
 Package: libggadget-gtk-1.0-dev
 Section: libdevel
 Architecture: any
-Depends: libggadget-gtk-1.0-0b (= ${binary:Version}), ${misc:Depends}
+Depends: libggadget-gtk-1.0-0b (= ${binary:Version}), ${misc:Depends}, libgtk2.0-dev
 Description: Google Gadgets GTK+ development files
  This package contains the development files assoicated with libggadget-gtk,
  it is needed to write GTK+ programs that utilise libggadget.
@@ -61,7 +61,7 @@ Description: Google Gadgets Qt library
 Package: libggadget-qt-1.0-dev
 Section: libdevel
 Architecture: any
-Depends: libggadget-qt-1.0-0b (= ${binary:Version}), ${misc:Depends}
+Depends: libggadget-qt-1.0-0b (= ${binary:Version}), ${misc:Depends}, libqt4-dev
 Description: Google Gadgets Qt development files
  This package contains the development files assoicated with libggadget-qt,
  it is needed to write Qt programs that utilise libggadget.
