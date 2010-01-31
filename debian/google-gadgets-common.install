@@ -1,6 +1,6 @@
 
 usr/lib/google-gadgets/modules/analytics*.so
-usr/lib/google-gadgets/modules/curl*.so
+usr/lib/google-gadgets/modules/soup*.so
 usr/lib/google-gadgets/modules/dbus*.so
 usr/lib/google-gadgets/modules/default*.so
 usr/lib/google-gadgets/modules/google-gadget-manager*.so

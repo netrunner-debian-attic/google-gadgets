@@ -5,8 +5,11 @@ google-gadgets (0.11.2-0.1) UNRELEASED; urgency=low
     - fixes a typo in the "World Daylight Clock". (Closes: #566168)
     - fixes GTK+ expose events with GTK+ >= 2.18. (Closes: #566169)
   * Make use of the xulrunner dh addon, so dh_xulrunner is run again.
+  * Switch from cURL to SOUP for the xml_http_request module. Other than being
+    recommended upstream, this also avoid crashes which can happen with
+    gnutls. (Closes: #566167)
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 11:55:48 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 11:57:44 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 
