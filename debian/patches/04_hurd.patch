@@ -1,3 +1,5 @@
+Author: Pino Toscano <pino@kde.org>
+Description: recognize GNU/Hurd as "linux"
 --- a/configure.ac
 +++ b/configure.ac
 @@ -495,7 +495,7 @@

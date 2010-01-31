@@ -1,3 +1,5 @@
+Author: Aurelien Jarno <aurel32@debian.org>
+Description: recognize GNU/kFreeBSD as "linux"
 --- a/configure.ac
 +++ b/configure.ac
 @@ -495,7 +495,7 @@ case $host_os in

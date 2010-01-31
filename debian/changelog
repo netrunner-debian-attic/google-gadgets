@@ -19,8 +19,10 @@ google-gadgets (0.11.2-0.1) UNRELEASED; urgency=low
     public headers.
   * Add patch 05_hurd_pthread.patch to force linking with pthread (workaround
     Hurd issue).
+  * Add small header for patches 01_am_maintainer_mode.patch, 02_kfreebsd.patch
+    and 04_hurd.patch.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 17:09:52 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Jan 2010 18:18:07 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 
