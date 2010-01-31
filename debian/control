@@ -15,11 +15,11 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/google-gadgets/trunk/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/krap/google-gadgets/trunk/
 Homepage: http://code.google.com/p/google-gadgets-for-linux/
 
-Package: libggadget-1.0-0a
+Package: libggadget-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-1.0-0
+Conflicts: libggadget-1.0-0, libggadget-1.0-0a
 Description: Google Gadgets main library
  This package contains the main Google Gadgets library, it is required by both
  the GTK+ and Qt versions of Google Gadgets.
@@ -27,16 +27,16 @@ Description: Google Gadgets main library
 Package: libggadget-1.0-dev
 Section: libdevel
 Architecture: any
-Depends: libggadget-1.0-0a (= ${binary:Version}), ${misc:Depends}
+Depends: libggadget-1.0-0b (= ${binary:Version}), ${misc:Depends}
 Description: Google Gadgets main development files
  This package contains the development files assoicated with libggadget, it is
  needed to write programs that utilise libggadget.
 
-Package: libggadget-gtk-1.0-0a
+Package: libggadget-gtk-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-gtk-1.0-0
+Conflicts: libggadget-gtk-1.0-0, libggadget-gtk-1.0-0a
 Description: Google Gadgets GTK+ library
  This package contains the GTK+ Google Gadgets library, it is required to run
  the GTK+ version of Google Gadgets.
@@ -44,16 +44,16 @@ Description: Google Gadgets GTK+ library
 Package: libggadget-gtk-1.0-dev
 Section: libdevel
 Architecture: any
-Depends: libggadget-gtk-1.0-0a (= ${binary:Version}), ${misc:Depends}
+Depends: libggadget-gtk-1.0-0b (= ${binary:Version}), ${misc:Depends}
 Description: Google Gadgets GTK+ development files
  This package contains the development files assoicated with libggadget-gtk,
  it is needed to write GTK+ programs that utilise libggadget.
 
-Package: libggadget-qt-1.0-0a
+Package: libggadget-qt-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-qt-1.0-0
+Conflicts: libggadget-qt-1.0-0, libggadget-qt-1.0-0a
 Description: Google Gadgets Qt library
  This package contains the Qt Google Gadgets library, it is required to run
  the Qt version of Google Gadgets.
@@ -61,7 +61,7 @@ Description: Google Gadgets Qt library
 Package: libggadget-qt-1.0-dev
 Section: libdevel
 Architecture: any
-Depends: libggadget-qt-1.0-0a (= ${binary:Version}), ${misc:Depends}
+Depends: libggadget-qt-1.0-0b (= ${binary:Version}), ${misc:Depends}
 Description: Google Gadgets Qt development files
  This package contains the development files assoicated with libggadget-qt,
  it is needed to write Qt programs that utilise libggadget.
