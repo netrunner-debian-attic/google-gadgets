@@ -1,3 +1,4 @@
+Author: Aurelien Jarno <aurel32@debian.org>
 Description: enable maintainer mode
 --- a/configure.ac
 +++ b/configure.ac

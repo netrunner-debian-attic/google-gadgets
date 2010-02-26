@@ -1,3 +1,5 @@
+Author: Mike Hommey <glandium@debian.org>
+Description: Tighten the GREVersionRange.
 --- a/extensions/gtkmoz_browser_element/browser_child.cc
 +++ b/extensions/gtkmoz_browser_element/browser_child.cc
 @@ -1268,8 +1268,8 @@
