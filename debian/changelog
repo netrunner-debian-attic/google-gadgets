@@ -23,8 +23,10 @@ google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
     and 04_hurd.patch.
   * Refresh patch 03_GRE_Version.patch, thanks Mike Hommey for the hints.
   * Bump Standards-Version to 3.8.4, no changes required.
+  * Slightly improve descriptions: add main blurb in each package, fix a couple
+    of typos.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2010 23:12:00 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2010 23:21:37 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 
