@@ -19,7 +19,9 @@ Package: libggadget-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-1.0-0, libggadget-1.0-0a
+Conflicts: libggadget-1.0-0, libggadget-1.0-0a, libggadget-1.0-0-api
+Replaces: libggadget-1.0-0-api
+Provides: libggadget-1.0-0-api
 Description: Google Gadgets main library
  Google Gadgets for Linux provides a platform for running desktop gadgets under
  Linux, catering to the unique needs of Linux users. It is compatible with the
@@ -48,7 +50,9 @@ Package: libggadget-gtk-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-gtk-1.0-0, libggadget-gtk-1.0-0a
+Conflicts: libggadget-gtk-1.0-0, libggadget-gtk-1.0-0a, libggadget-gtk-1.0-0-api
+Replaces: libggadget-gtk-1.0-0-api
+Provides: libggadget-gtk-1.0-0-api
 Description: Google Gadgets GTK+ library
  Google Gadgets for Linux provides a platform for running desktop gadgets under
  Linux, catering to the unique needs of Linux users. It is compatible with the
@@ -77,7 +81,9 @@ Package: libggadget-qt-1.0-0b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: libggadget-qt-1.0-0, libggadget-qt-1.0-0a
+Conflicts: libggadget-qt-1.0-0, libggadget-qt-1.0-0a, libggadget-qt-1.0-0-api
+Replaces: libggadget-qt-1.0-0-api
+Provides: libggadget-qt-1.0-0-api
 Description: Google Gadgets Qt library
  Google Gadgets for Linux provides a platform for running desktop gadgets under
  Linux, catering to the unique needs of Linux users. It is compatible with the
