@@ -27,8 +27,9 @@ google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
   * Add lintian overrides:
     - the names of the lib* packages don't reflect the SO-names of the
       library/ies contained.
+  * Make dh_install ignore .la files.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2010 23:52:15 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:57:21 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 

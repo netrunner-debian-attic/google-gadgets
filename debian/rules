@@ -16,7 +16,7 @@ override_dh_auto_configure:
 override_dh_install:
 	chrpath -d debian/tmp/usr/lib/google-gadgets/gtkmoz-browser-child
 	chrpath -d debian/tmp/usr/lib/google-gadgets/modules/smjs-script-runtime.so
-	dh_install --list-missing
+	dh_install --list-missing -X.la
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -Ngoogle-gadgets-common -Ngoogle-gadgets-gtk \
