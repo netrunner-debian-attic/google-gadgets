@@ -1,11 +1,11 @@
 google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
-  * New upstream release.
+  * New upstream release:
     - fixes a typo in the "World Daylight Clock". (Closes: #566168)
     - fixes GTK+ expose events with GTK+ >= 2.18. (Closes: #566169)
     - links ggl-qt to X11 and Xrender (Closes: #554696)
-  * This version google-gadgets breaks API and ABI once again, so:
+  * This new version of google-gadgets breaks API and ABI once again, so:
     - rename library packages, 'b' suffix this time.
     - add conflict against 'a' libraries.
     - update -dev packages dependency accordingly.
@@ -28,9 +28,9 @@ google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
     - the names of the lib* packages don't reflect the SO-names of the
       library/ies contained.
   * Make dh_install ignore .la files.
-  * Adjusted capitalisation of "QT" to "Qt" also in the ggl-qt.7 manpage.
+  * Adjust capitalisation of "QT" to "Qt" also in the ggl-qt.7 manpage.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 01:20:05 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 01:25:43 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 
