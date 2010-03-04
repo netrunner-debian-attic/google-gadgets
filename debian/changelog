@@ -1,4 +1,4 @@
-google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
+google-gadgets (0.11.2-1) experimental; urgency=low
 
   [ Pino Toscano ]
   * New upstream release:
@@ -35,7 +35,7 @@ google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
   * Since ABI breakages are going to continue, add *-api virtual packages
     to keep library count in the conflicts at the manageable level.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 19:05:50 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 20:41:01 +0200
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 

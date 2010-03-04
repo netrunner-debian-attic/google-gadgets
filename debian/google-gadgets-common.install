@@ -1,4 +1,3 @@
-
 usr/lib/google-gadgets/modules/analytics*.so
 usr/lib/google-gadgets/modules/soup*.so
 usr/lib/google-gadgets/modules/dbus*.so
