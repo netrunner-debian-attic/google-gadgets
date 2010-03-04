@@ -29,12 +29,13 @@ google-gadgets (0.11.2-0r1) UNRELEASED; urgency=low
       library/ies contained.
   * Make dh_install ignore .la files.
   * Adjust capitalisation of "QT" to "Qt" also in the ggl-qt.7 manpage.
+  * Add also the SOVERSION to the .install files.
 
   [ Modestas Vainius ]
   * Since ABI breakages are going to continue, add *-api virtual packages
     to keep library count in the conflicts at the manageable level.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 01:25:43 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 19:05:50 +0100
 
 google-gadgets (0.11.1-2) unstable; urgency=low
 
