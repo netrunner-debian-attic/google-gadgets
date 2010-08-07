@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), automake, autoconf,
  libstartup-notification0-dev, libxml2-dev,
  network-manager-dev [!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386],
  xulrunner-dev (>= 1.9.1.6), zlib1g-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/google-gadgets/trunk/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/krap/google-gadgets/trunk/
 Homepage: http://code.google.com/p/google-gadgets-for-linux/
