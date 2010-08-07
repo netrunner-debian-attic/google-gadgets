@@ -4,8 +4,13 @@ google-gadgets (0.11.2-3) UNRELEASED; urgency=low
   * Remove the postinst and postrm scripts of google-gadgets-common, as
     dh_installmime will take care of adding the proper snippets to trigger
     update-mime-database. (Closes: #591863)
+  * Update debian/copyright:
+    - explicitly list the sources in unittest/ which are licensed as BSD.
+    - put the whole BSD license text instead of referring to
+      /usr/share/common-licenses/BSD, which is deprecated in Debian Policy
+      3.9.0.0.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Aug 2010 13:05:25 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Aug 2010 14:22:00 +0200
 
 google-gadgets (0.11.2-2) unstable; urgency=low
 
