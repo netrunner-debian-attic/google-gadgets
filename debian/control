@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), automake, autoconf,
  network-manager-dev [!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386],
  xulrunner-dev (>= 1.9.1.6), zlib1g-dev
 Standards-Version: 3.9.1
-Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/google-gadgets/trunk/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/krap/google-gadgets/trunk/
+Vcs-Git: git://git.debian.org/pkg-kde/krap/google-gadgets.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/google-gadgets.git
 Homepage: http://code.google.com/p/google-gadgets-for-linux/
 
 Package: libggadget-1.0-0b
