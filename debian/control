@@ -14,6 +14,7 @@ Standards-Version: 3.9.1
 Vcs-Git: git://git.debian.org/pkg-kde/krap/google-gadgets.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/google-gadgets.git
 Homepage: http://code.google.com/p/google-gadgets-for-linux/
+DM-Upload-Allowed: yes
 
 Package: libggadget-1.0-0b
 Section: libs
