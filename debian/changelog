@@ -1,4 +1,4 @@
-google-gadgets (0.11.2-3) UNRELEASED; urgency=low
+google-gadgets (0.11.2-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Remove the postinst and postrm scripts of google-gadgets-common, as
@@ -20,7 +20,7 @@ google-gadgets (0.11.2-3) UNRELEASED; urgency=low
   * Add myself as uploader.
   * Add "DM-Upload-Allowed: yes" in debian/control.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Aug 2010 10:29:53 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Aug 2010 10:31:02 +0200
 
 google-gadgets (0.11.2-2) unstable; urgency=low
 
