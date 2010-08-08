@@ -17,8 +17,9 @@ google-gadgets (0.11.2-3) UNRELEASED; urgency=low
     - remove the debian/README.source file.
   * Rename libggadget-1.0-0.docs to libggadget-1.0-0b.docs, missed in the
     previous ABI adaptation.
+  * Add myself as uploader.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Aug 2010 15:28:24 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Aug 2010 10:29:12 +0200
 
 google-gadgets (0.11.2-2) unstable; urgency=low
 
