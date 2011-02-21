@@ -1,3 +1,8 @@
+google-gadgets (0.11.2-4) UNRELEASED; urgency=low
+
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
+
 google-gadgets (0.11.2-3) unstable; urgency=low
 
   [ Pino Toscano ]
