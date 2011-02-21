@@ -132,7 +132,7 @@ Depends: google-gadgets-common (= ${binary:Version}),
 Description: GTK+ Version of Google Gadgets
  Google Gadgets for Linux provides a platform for running desktop gadgets under
  Linux, catering to the unique needs of Linux users. It is compatible with the
- gadgets written for Google Desktop for Windows aso well as the Universal
+ gadgets written for Google Desktop for Windows as well as the Universal
  Gadgets on iGoogle. Following Linux norms, this project is open-sourced,
  under the Apache License.
  .
@@ -166,7 +166,7 @@ Description: GStreamer Module for Google Gadgets
  Gadgets on iGoogle. Following Linux norms, this project is open-sourced,
  under the Apache License.
  .
- This package includes the GStreamer modules
+ This package includes the GStreamer modules.
 
 Package: google-gadgets-xul
 Section: misc
@@ -180,4 +180,4 @@ Description: XULRunner module for Google Gadgets
  Gadgets on iGoogle. Following Linux norms, this project is open-sourced,
  under the Apache License.
  .
- This package includes the XULRunner Modules
+ This package includes the XULRunner Modules.
