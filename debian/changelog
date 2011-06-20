@@ -6,6 +6,7 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
   * Add build-dependency on libqtwebkit-dev, as it has been split from
     libqt4-dev.
   * Bump Standards-Version to 3.9.2, no changes required.
+  * Pass the arguments to `dh' after the target name (dh v8 compatibility).
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
