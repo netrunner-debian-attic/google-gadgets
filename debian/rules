@@ -4,10 +4,9 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --with xulrunner
+	dh $@ --with autoreconf,xulrunner
 
 override_dh_auto_configure:
-	autoreconf --verbose --force --install
 	dh_auto_configure -- \
 		--with-browser-plugins-dir=\$${prefix}/lib/xulrunner-addons/plugins \
 		--disable-werror \
