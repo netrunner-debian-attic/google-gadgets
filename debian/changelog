@@ -3,6 +3,8 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Few micro touches to the descriptions, including a typo fix.
     (Closes: #614013)
+  * Add build-dependency on libqtwebkit-dev, as it has been split from
+    libqt4-dev.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
