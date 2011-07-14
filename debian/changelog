@@ -10,6 +10,7 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
   * Build-depend on dh-autoreconf and use the dh autoreconf addon.
   * Use wildcard architectures:
     - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
+  * Switch to my @debian.org address, I'm a DD now.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
