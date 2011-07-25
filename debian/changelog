@@ -1,6 +1,5 @@
-google-gadgets (0.11.2-4) UNRELEASED; urgency=low
+google-gadgets (0.11.2-4) unstable; urgency=low
 
-  [ Pino Toscano ]
   * Few micro touches to the descriptions, including a typo fix.
     (Closes: #614013)
   * Add build-dependency on libqtwebkit-dev, as it has been split from
@@ -24,7 +23,7 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
   * Adjust capitalisation of "QT" to "Qt" also in google-gadgets-qt.menu.
   * Remove duplicated "Section" headers.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
+ -- Pino Toscano <pino@debian.org>  Mon, 25 Jul 2011 23:05:00 +0200
 
 google-gadgets (0.11.2-3) unstable; urgency=low
 
