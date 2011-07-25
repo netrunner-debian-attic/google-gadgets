@@ -20,6 +20,7 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
     - build-depend on libwebkitgtk-dev.
     - introduce a google-gadgets-webkit binary, and make google-gadgets-gtk
       depend on it.
+  * Adjust capitalisation of "QT" to "Qt" also in google-gadgets-qt.menu.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
