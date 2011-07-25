@@ -112,7 +112,6 @@ Description: Google Gadgets Qt development files
  it is needed to write Qt programs that utilise libggadget.
 
 Package: google-gadgets-common
-Section: misc
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, shared-mime-info
 Description: Common files for Qt and GTK+ versions of google-gadgets
@@ -156,7 +155,6 @@ Description: Qt4 version of Google Gadgets
  This package includes the Qt version.
 
 Package: google-gadgets-gst
-Section: misc
 Architecture: any
 Depends: google-gadgets-common (= ${binary:Version}),
  ${shlibs:Depends}, ${misc:Depends}
@@ -170,7 +168,6 @@ Description: GStreamer Module for Google Gadgets
  This package includes the GStreamer modules.
 
 Package: google-gadgets-webkit
-Section: misc
 Architecture: any
 Depends: google-gadgets-common (= ${binary:Version}),
  ${shlibs:Depends}, ${misc:Depends}
