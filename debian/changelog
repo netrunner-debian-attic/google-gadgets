@@ -11,6 +11,11 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
   * Use wildcard architectures:
     - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
   * Switch to my @debian.org address, I'm a DD now.
+  * Drop the XUL-based modules, which do not compile anymore with
+    xulrunner >= 2.0: (Closes: #631037)
+    - do not use the xulrunner dh addon.
+    - remove the google-gadgets-xul binary.
+    - drop the xulrunner-dev and chrpath build-dependencies.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
