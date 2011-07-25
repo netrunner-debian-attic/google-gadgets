@@ -10,6 +10,7 @@ Build-Depends: debhelper (>= 7.0.50~), automake, autoconf, dh-autoreconf,
  librsvg2-dev,
  libstartup-notification0-dev, libxml2-dev,
  network-manager-dev [linux-any],
+ libwebkitgtk-dev,
  zlib1g-dev
 Standards-Version: 3.9.2
 Vcs-Git: git://git.debian.org/pkg-kde/krap/google-gadgets.git
@@ -128,6 +129,7 @@ Section: gnome
 Architecture: any
 Depends: google-gadgets-common (= ${binary:Version}),
  google-gadgets-gst (= ${binary:Version}),
+ google-gadgets-webkit (= ${binary:Version}),
  ${shlibs:Depends}, ${misc:Depends}
 Description: GTK+ Version of Google Gadgets
  Google Gadgets for Linux provides a platform for running desktop gadgets under
@@ -166,3 +168,17 @@ Description: GStreamer Module for Google Gadgets
  under the Apache License.
  .
  This package includes the GStreamer modules.
+
+Package: google-gadgets-webkit
+Section: misc
+Architecture: any
+Depends: google-gadgets-common (= ${binary:Version}),
+ ${shlibs:Depends}, ${misc:Depends}
+Description: WebKit modules for Google Gadgets
+ Google Gadgets for Linux provides a platform for running desktop gadgets under
+ Linux, catering to the unique needs of Linux users. It is compatible with the
+ gadgets written for Google Desktop for Windows as well as the Universal
+ Gadgets on iGoogle. Following Linux norms, this project is open-sourced,
+ under the Apache License.
+ .
+ This package includes the WebKit modules.

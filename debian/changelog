@@ -16,6 +16,10 @@ google-gadgets (0.11.2-4) UNRELEASED; urgency=low
     - do not use the xulrunner dh addon.
     - remove the google-gadgets-xul binary.
     - drop the xulrunner-dev and chrpath build-dependencies.
+  * Provide the WebKit-based modules:
+    - build-depend on libwebkitgtk-dev.
+    - introduce a google-gadgets-webkit binary, and make google-gadgets-gtk
+      depend on it.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Feb 2011 14:04:53 +0100
 
