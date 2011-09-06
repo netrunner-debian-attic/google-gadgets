@@ -8,7 +8,7 @@ google-gadgets (0.11.2-5) unstable; urgency=low
     .desktop files.
   * Remove "DM-Upload-Allowed: yes" from debian/control, no more needed.
 
- -- Pino Toscano <pino@debian.org>  Tue, 06 Sep 2011 17:52:07 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 06 Sep 2011 19:16:15 +0200
 
 google-gadgets (0.11.2-4) unstable; urgency=low
 
