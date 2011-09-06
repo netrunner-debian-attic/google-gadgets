@@ -3,5 +3,6 @@
 03_GRE_Version.patch
 04_hurd.patch
 05_hurd_pthread.patch
+fix_desktop.patch
 nm09.patch
 nm-mobile-devtypes.patch
