@@ -1,3 +1,8 @@
+google-gadgets (0.11.2-6) UNRELEASED; urgency=low
+
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Mar 2012 21:17:37 +0100
+
 google-gadgets (0.11.2-5) unstable; urgency=low
 
   * Change libltdl3-dev build-dependency to libltdl-dev.
