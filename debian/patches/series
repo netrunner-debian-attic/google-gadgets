@@ -7,3 +7,4 @@ fix_desktop.patch
 nm09.patch
 nm-mobile-devtypes.patch
 glib_includes.diff
+gcc-4.7.diff
