@@ -11,8 +11,6 @@ google-gadgets (0.11.2-6) UNRELEASED; urgency=low
     - adapt the library paths in .install files to multiarch locations.
   * Add "Pre-Depends: ${misc:Pre-Depends}" and "Multi-Arch: same"
     to library packages; add Pre-Depends also to google-gadgets-webkit
-  * Avoid shlibs creation for google-gadgets-webkit, and update lintian
-    overrides accordingly.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Mar 2012 21:17:37 +0100
 
