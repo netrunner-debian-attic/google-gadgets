@@ -17,7 +17,8 @@ override_dh_install:
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V -Ngoogle-gadgets-common -Ngoogle-gadgets-gtk \
-		-Ngoogle-gadgets-qt -Ngoogle-gadgets-gst
+		-Ngoogle-gadgets-qt -Ngoogle-gadgets-gst \
+		-Ngoogle-gadgets-webkit
 
 get-orig-source:
 	# rename to what debian wants, repack to tgz rather than tbz2
