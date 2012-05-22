@@ -1,2 +1,3 @@
 google-gadgets-webkit: package-name-doesnt-match-sonames libggadget-webkitjs-1.0-0
-google-gadgets-webkit: no-symbols-control-file usr/lib/libggadget-webkitjs-1.0.so.0.0.0
+# internal library, only used by plugins in this very same package
+google-gadgets-webkit: no-shlibs-control-file usr/lib/*/libggadget-webkitjs-1.0.so.0.0.0
