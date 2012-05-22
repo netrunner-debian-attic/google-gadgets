@@ -9,6 +9,7 @@ google-gadgets (0.11.2-6) UNRELEASED; urgency=low
     - bump the debhelper build dependency to >= 9.
     - bump compat to 9.
     - adapt the library paths in .install files to multiarch locations.
+  * Add "Pre-Depends: ${misc:Pre-Depends}" to library packages.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Mar 2012 21:17:37 +0100
 
