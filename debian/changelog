@@ -9,7 +9,8 @@ google-gadgets (0.11.2-6) UNRELEASED; urgency=low
     - bump the debhelper build dependency to >= 9.
     - bump compat to 9.
     - adapt the library paths in .install files to multiarch locations.
-  * Add "Pre-Depends: ${misc:Pre-Depends}" to library packages.
+  * Add "Pre-Depends: ${misc:Pre-Depends}" and "Multi-Arch: same"
+    to library packages.
   * Avoid shlibs creation for google-gadgets-webkit, and update lintian
     overrides accordingly.
 

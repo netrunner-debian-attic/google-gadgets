@@ -20,6 +20,7 @@ Homepage: http://code.google.com/p/google-gadgets-for-linux/
 Package: libggadget-1.0-0b
 Section: libs
 Architecture: any
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libggadget-1.0-0, libggadget-1.0-0a, libggadget-1.0-0-api
@@ -52,6 +53,7 @@ Description: Google Gadgets main development files
 Package: libggadget-gtk-1.0-0b
 Section: libs
 Architecture: any
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libggadget-gtk-1.0-0, libggadget-gtk-1.0-0a, libggadget-gtk-1.0-0-api
@@ -84,6 +86,7 @@ Description: Google Gadgets GTK+ development files
 Package: libggadget-qt-1.0-0b
 Section: libs
 Architecture: any
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libggadget-qt-1.0-0, libggadget-qt-1.0-0a, libggadget-qt-1.0-0-api
