@@ -5,6 +5,10 @@ google-gadgets (0.11.2-6) UNRELEASED; urgency=low
     individual headers; patch glib_includes.diff. (Closes: #665541)
   * Bump Standards-Version to 3.9.3, no changes required.
   * Fix building with GCC 4.7; patch gcc-4.7.diff. (Closes: #667187)
+  * Bump to debhelper compatibility to 9:
+    - bump the debhelper build dependency to >= 9.
+    - bump compat to 9.
+    - adapt the library paths in .install files to multiarch locations.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Mar 2012 21:17:37 +0100
 

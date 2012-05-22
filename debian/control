@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Modestas Vainius <modax@debian.org>, Fathi Boudra <fabo@debian.org>, Pino Toscano <pino@debian.org>
-Build-Depends: debhelper (>= 7.0.50~), automake, autoconf, dh-autoreconf,
+Build-Depends: debhelper (>= 9), automake, autoconf, dh-autoreconf,
  libtool, zip, libsoup2.4-dev (>= 2.26.0),
  libdbus-1-dev, libeditline-dev, libgtk2.0-dev,
  libgstreamer-plugins-base0.10-dev, libltdl-dev, libqt4-dev, libqtwebkit-dev,
